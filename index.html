@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Khanh's Profile</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4509/4509624.png">
+    <!-- Install bootstrap css stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- My css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Install bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"></script>
+    <!-- Google fonts: montserrat and ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Install FontAwesome css and JavaScript for logo apple and app store -->
+    <script src="https://kit.fontawesome.com/0eca0193d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/0eca0193d0.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+<!-- Title -->
+
+<section class="colored-section" id="title">
+    <div class="container-fluid">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand colored-section" href=""><i class="fa-regular fa-address-card"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">My Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cta">Hire me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-xl-8">
+                <h1 class="big-heading">Nguyen Quoc Khanh,</h1>
+                <h2 class="h2"><em>"From an Electrical Engineer to a Python Developer"</em></h2>
+            </div>
+            <div class="col-xl-4">
+                <img class="title-img" src="images/tree.png" alt="Tree-of-knowledge">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features -->
+
+<section class="white-section" id="features">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3 class="feature-title">My Skill</h3>
+                <p>From an electrical engineer to a Python developer that prove my good adaptability with new subject, new software, new field ... and I always gain knowledge and experience.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                <h3 class="feature-title">My Target</h3>
+                <p>I will make some good projects to prove my ability and also to have a good chance in my new career path as a developer.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="icon fa-solid fa-heart fa-4x"></i>
+                <h3 class="feature-title">My passion</h3>
+                <p>Coding is my passion and also my hobby right now. But I always hope that my passion can go along with me.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials -->
+
+<section class="colored-section" id="testimonials">
+
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover"
+         data-bs-interval="4000">
+        <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+                <h2 class="testimonial-text">My basic Python skill: OOPs Concepts, Iterators, Exception Handling, File handling concepts, Comprehension </h2>
+                <img class="testimonial-image" src="https://img.freepik.com/free-icon/snakes_318-368381.jpg" alt="python-profile">
+                <em>Python</em>
+            </div>
+            <div class="carousel-item container-fluid">
+                <h2 class="testimonial-text"> I can CRUD data, secure data, and authenticate user with flask_sqlalchemy, werkzeug.security and flask_login</h2>
+                <img class="testimonial-image" src="https://cdn.freebiesupply.com/logos/large/2x/flask-logo-png-transparent.png" alt="flask-profile">
+                <em>Flask</em>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+</section>
+
+
+<!-- Press -->
+
+<section class="colored-section" id="press">
+    <img class="press-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/486px-Python_logo_and_wordmark.svg.png?20210516005643" alt="python-logo">
+    <img class="press-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/460px-Flask_logo.svg.png?20120519143422" alt="flask-logo">
+    <img class="press-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/512px-Pandas_logo.svg.png?20200209204934" alt="pandas-logo">
+    <img class="press-logo" src="https://learnbatta.com/assets/images/sqlalchemy/logo.png" alt="sqlalchemy-logo">
+
+</section>
+
+
+<!-- Pricing -->
+
+<section class="white-section" id="pricing">
+
+    <h2 class="section-heading">An job offer for this guy</h2>
+    <p>Simple and affordable salary for this guy</p>
+
+    <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>Internship</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">Free</h2>
+                    <p>You can work from home <i class="fa-solid fa-face-laugh-beam"></i></p>
+                    <p>You have to follow my training schedule <i class="fa-solid fa-face-laugh-beam"></i></p>
+                    <p>I will not pay you salary <i class="fa-sharp fa-solid fa-face-sad-cry"></i></p>
+                    <p>I only give you experiences <i class="fa-solid fa-face-laugh-beam"></i></p>
+                    <div class="d-grid col-12 mx-auto">
+                        <button class="pricing-btn btn btn-outline-dark" type="button">Sign a Contract</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>Fresher</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">$249 / mo</h2>
+                    <p>You have to work at office or at site <i class="fa-solid fa-face-laugh-beam"></i></p>
+                    <p>You have to follow the working schedule <i class="fa-solid fa-face-laugh-beam"></i></p>
+                    <p>I can pay you some money as your salary <i class="fa-sharp fa-solid fa-sack-dollar"></i></p>
+                    <p>I will help you at first, and then you're on your own <i class="fa-sharp fa-solid fa-face-sad-cry"></i></p>
+                    <div class="d-grid col-12 mx-auto">
+                        <button class="pricing-btn btn btn-dark" type="button">Sign a Contract</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>Junior</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">$399 / mo</h2>
+                    <p>You work where I tell you to work <i class="fa-sharp fa-solid fa-face-sad-cry"></i></p>
+                    <p>You rest when I tell you to rest <i class="fa-sharp fa-solid fa-face-sad-cry"></i></p>
+                    <p>I pay you a little more and pay for your overtime too <i class="fa-sharp fa-solid fa-sack-dollar"></i></p>
+                    <p>I will help you go through the security, and then you're on your own <i class="fa-sharp fa-solid fa-face-sad-cry"></i></p>
+                    <div class="d-grid col-12 mx-auto">
+                        <button class="pricing-btn btn btn-dark" type="button">Sign a Contract</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="cta">
+    <div class="container-fluid">
+        <h3 class="big-heading">Just hire this potential candidate!</h3>
+        <h3 class="big-heading">You will not regret.</h3>
+        <a class="btn btn-dark btn-lg cta-download-button" type="button" href="mailto:khanhnguyencoder1996@gmail.com"><i class="fa-solid fa-face-laugh-beam"></i>
+            You are HIRE!
+        </a>
+        <button class="btn btn-light btn-lg cta-download-button" type="button"><i class="fa-sharp fa-solid fa-face-sad-cry"></i>
+            NO! Not You.
+        </button>
+    </div>
+</section>
+
+
+<!-- Contact -->
+
+<section class="colored-section" id="contact" >
+    <div class="container-fluid" >
+        <div class="contact-info">
+            <img class='contact-shape' src="images/hexagon.png" >
+            <h1>Contact me</h1>
+            <p><b>Mailing address:</b><br>2D4 Tong Duy Tan St, Ward 9, Vung Tau city</p>
+            <p><b>Email Address:</b><br>khanhnguyencoder1996@gmail.com</p>
+            <p><b>Phone Number:</b><br>(039) 391 0334</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="white-section" id="footer">
+    <div class="container-fluid">
+        <i class="social-icon fa-brands fa-twitter"></i>
+        <i class="social-icon fa-brands fa-instagram"></i>
+        <i class="social-icon fa-brands fa-facebook"></i>
+        <i class="social-icon fa-solid fa-envelope"></i>
+        <p>© Copyright 2023 An Unemployed Guy</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
